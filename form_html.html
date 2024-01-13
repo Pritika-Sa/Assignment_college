@@ -1,0 +1,93 @@
+<html>
+<head>
+<title>
+REGISTRATION FORM
+</title>
+<style>
+.data_form
+{
+margin-left:30%;
+background-color:lightgrey;
+width:35%;
+padding-left:10%;
+border-radius:15%;
+}
+</style>
+</head>
+
+<body bgcolor="grey">
+
+<h2><center>STUDENT REGISTRATION FORM</center></h2>
+<hr>
+<div class="data_form">
+<form>
+<table>
+<b><i><label for ='fName'>First name :</label><br></i></b>
+<input type = "text" id="fname" name="fname" placeholder="Enter your first name" required/><br><br>
+
+<b><i><label for='lName'>Second name :</label><br></i></b>
+<input type = "text" id="lname" name="lname" placeholder="Enter you seccond name" required/><br><br>
+
+<b><i><label for = 'reg'>Roll No :</label><br></i></b>
+<input type = "text" id="reg" name="reg" placeholder = "Enter your roll no" required/><br><br>
+
+<b><i><label for='password'>Enter your password :</label></i></b><br>
+<input type="password" id="password" name="password" placeholder="Enter your password" required/><br><br>
+
+<b><i><label for = 'email'>E-mail :</label><br></i></b>
+<input type = "email" id="email" name="email" placeholder = "abc@gmail.com" required/><br><br>
+
+<b><i><label for = 'phone'>Phone number :</label><br></i></b>
+<input type = "tel" id="phone" name="phone" max="10" placeholder = "Enter your contact number" required/><br><br>
+
+<b><i><label for = 'nation'>Enter your nationality :</label><br></i></b>
+<input type = "text" id="nation" name="nation" placeholder = "Enter your nationality" required/><br><br>
+
+<b><i><label for = 'dept'>Department :</label><br></i></b>
+<select name="Department" placeholder="Choose your department">
+<option value = "cse">Computer Science Engineering</option>
+<option value = "it">Information Technology</option>
+<option value = "mech">Mechanical Engineering</option>
+<option value = "aids">Artificial Intelligence and Data Science</option>
+<option value = "aiml">Artificial Intelligence and Machine Learning</option>
+<option value = "others">Other engineering</option>
+</select><br><br>
+
+<b><i><label for = 'age'>Age :</label><br></i></b>
+<input type = "number" id="age" name="age" placeholder="Enter your age" required/><br><br>
+
+<b><i><label for = 'dob'>Date of birth :</label><br></i></b>
+<input type="date" id="dob" name="dob" required/><br><br>
+
+<b><i><label for = 'gender'>Select your Gender :</label><br></i></b>
+<input type = "radio" id="male" name = "gender" value="Male">
+<label for = 'male'>Male</label><br>
+<input type = 'radio' id="female" name = "gender" value = "Female">
+<label for = 'others'>Female</label><br>
+<input type = 'radio' id="others" name = "gender" value = "Others">
+<label for = 'others'>Others</label><br><br>  
+  
+
+<b><i><label for = 'skills'>Skills :</label><br></b></i>
+  <input type="checkbox" id="HTML" name="skill1" >
+  <label for="HTML">HTML</label><br>
+  <input type="checkbox" id="CSS" name="skill2">
+  <label for="CSS">CSS</label><br>
+  <input type="checkbox" id="JS" name="skill3">
+  <label for="JS">JS</label><br><br>
+
+<b><i><label for = 'Community'>Community :</label><br></i></b>
+<input type = "text" id="community" name="community" placeholder="OC/MBC/BC/SC/ST" required/><br><br>
+
+
+<b><i><label for = 'address'>Address :</label><br></i></b>
+<textarea id="address" name="address" required/></textarea><br><br>
+
+<input type="file" value="fileupload"><br><br>
+<input type = "button" value = "submit">  
+<input type = "reset"><br>
+</table>
+</form>
+</div>
+</body>
+</html>
